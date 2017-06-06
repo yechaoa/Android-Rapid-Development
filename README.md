@@ -42,8 +42,8 @@ allprojects {
 * **compile 'jp.wasabeef:picasso-transformations:2.1.2'**
 * Github：https://github.com/wasabeef/picasso-transformations
 ### 6、Butter Knife
-* **compile 'com.jakewharton:butterknife:8.4.0'**
-* **apt 'com.jakewharton:butterknife-compiler:8.4.0'**
+* **compile 'com.jakewharton:butterknife:8.6.0'**
+* **annotationProcessor 'com.jakewharton:butterknife-compiler:8.6.0'**
 * 官网：[http://jakewharton.github.io/butterknife/](http://jakewharton.github.io/butterknife/)
 * GitHub：https://github.com/JakeWharton/butterknife
 * 相关文章：[Butter Knife 配置和使用及插件](http://blog.csdn.net/yechaoa/article/details/52963196)
