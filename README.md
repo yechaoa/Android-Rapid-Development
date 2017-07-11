@@ -24,7 +24,8 @@ allprojects {
 * GitHub：https://github.com/google/gson
 * 相关文章：[Gson 解析教程](http://blog.csdn.net/axuanqq/article/details/51441590)
 ### 2、Glide
-* **compile 'com.github.bumptech.glide:glide:3.7.0'**
+* **compile 'com.github.bumptech.glide:glide:4.0.0-RC1'**
+* **annotationProcessor 'com.github.bumptech.glide:compiler:4.0.0-RC1'**
 * GitHub：https://github.com/bumptech/glide
 * 相关文章：[Glide、Picasso和Fresco](http://blog.csdn.net/yechaoa/article/details/70948445)
 					郭霖的[Android图片加载框架最全解析（一），Glide的基本用法](http://blog.csdn.net/guolin_blog/article/details/53759439)
