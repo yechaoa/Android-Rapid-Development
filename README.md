@@ -6,7 +6,7 @@ Android快速开发整理（库、插件、常用网站）
 #### compile 'com.android.support:recyclerview-v7:24.+'
 #### compile 'com.android.support:support-v13:24.2.1'
 #### compile 'com.android.support:design:24.2.1'
-##### 目前最新版本25.3.0，需要compileSdkVersion 25
+#### 目前最新版本26.0.1，需要compileSdkVersion 26
 <br>
 # 二、第三方库
 部分库是jitpack的发布方式，需要在project下的build.gradle中加上（可直接加上，一劳永逸）
@@ -20,7 +20,7 @@ allprojects {
 ```
 
 ### 1、Gson
-* **compile 'com.google.code.gson:gson:2.6.2'**
+* **compile 'com.google.code.gson:gson:2.8.1'**
 * GitHub：https://github.com/google/gson
 * 相关文章：[Gson 解析教程](http://blog.csdn.net/axuanqq/article/details/51441590)
 ### 2、Glide
@@ -69,7 +69,7 @@ allprojects {
 * GitHub：https://github.com/square/retrofit
 ### 12、RX系列：https://github.com/ReactiveX
 ### 13、RxJava
-* **compile "io.reactivex.rxjava2:rxjava:2.1.0"**
+* **compile "io.reactivex.rxjava2:rxjava:2.1.3"**
 * Github：https://github.com/ReactiveX/RxJava
 ### 14、RxAndroid
 * **compile 'io.reactivex.rxjava2:rxandroid:2.0.1'**
