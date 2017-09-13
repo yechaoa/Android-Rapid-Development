@@ -289,5 +289,14 @@ Platform bindings:
 ### 15、360加固保
 * http://jiagu.360.cn/
 
+### GitHub
+* https://github.com/
+
+### 简书
+* http://www.jianshu.com/
+
+### Android开发技术周报
+* http://androidweekly.cn/
+
 <br><br><br>
 #### 持续更新。。。
