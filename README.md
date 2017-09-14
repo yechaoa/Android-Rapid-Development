@@ -84,6 +84,10 @@ allprojects {
 * Github：https://github.com/ragunathjawahar/android-saripaar/
 * 相关文章：[Android之表单验证，Validation三方集成。](http://blog.csdn.net/yechaoa/article/details/60875310)
 
+### YUtils（Android快速开发工具集合）
+* **compile 'com.github.yechaoa:YUtils:2.0.5'**
+* GitHub：https://github.com/yechaoa/YUtils
+
 ### AndroidUtilCode（各种util）
 * **compile 'com.blankj:utilcode:1.6.4'**
 * GitHub：https://github.com/Blankj/AndroidUtilCode
