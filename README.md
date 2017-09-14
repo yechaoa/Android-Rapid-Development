@@ -20,7 +20,9 @@ allprojects {
 }
 ```
 
+<br>
 > ## 工具
+<br>
 
 ### Gson
 * **compile 'com.google.code.gson:gson:2.8.1'**
@@ -84,9 +86,9 @@ allprojects {
 * **compile 'com.blankj:utilcode:1.6.4'**
 * GitHub：https://github.com/Blankj/AndroidUtilCode
 
-
+<br>
 > ## 网络
-
+<br>
 
 ### OkHttp
 * **compile 'com.squareup.okhttp3:okhttp:3.9.0'**
@@ -154,9 +156,9 @@ Platform bindings:
 
 * GitHub：https://github.com/JakeWharton/RxBinding
 
-
+<br>
 > ## UI
-
+<br>
 
 ### Android View Animations（各种动画）
 * **compile 'com.android.support:support-compat:25.1.1'**
@@ -224,8 +226,12 @@ Platform bindings:
 * **compile 'com.orhanobut:dialogplus:1.11@aar'**
 * GitHub：https://github.com/orhanobut/dialogplus
 
+
 # 三、各种好用的插件
+
+
 #### 安装方法
+
 ##### 可能有的插件搜索不到，直接点击Search in repositories
 ![这里写图片描述](http://img.blog.csdn.net/20170605183814185?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveWVjaGFvYQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 ##### 点击install开始安装，安转成功之后会提示restart重启as，重启就好了。
@@ -254,7 +260,9 @@ Platform bindings:
 ### LeakCanary
 * 检测内存泄露
 
+
 # 四、各种常用的网站
+
 
 ### GitHub
 * https://github.com/
