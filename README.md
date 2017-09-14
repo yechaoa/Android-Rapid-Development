@@ -170,6 +170,10 @@ Platform bindings:
 
 <br>
 
+### MaterialEditText
+* **compile 'com.rengwuxian.materialedittext:library:2.1.4'**
+* GitHub：https://github.com/rengwuxian/MaterialEditText
+
 ### Android View Animations（各种动画）
 * **compile 'com.android.support:support-compat:25.1.1'**
 * **compile 'com.daimajia.easing:library:2.0@aar'**
