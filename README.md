@@ -20,6 +20,8 @@ allprojects {
 }
 ```
 
+> ## 工具
+
 ### Gson
 * **compile 'com.google.code.gson:gson:2.8.1'**
 * GitHub：https://github.com/google/gson
@@ -54,6 +56,37 @@ allprojects {
 * 官网：[http://jakewharton.github.io/butterknife/](http://jakewharton.github.io/butterknife/)
 * GitHub：https://github.com/JakeWharton/butterknife
 * 相关文章：[Butter Knife 配置和使用及插件](http://blog.csdn.net/yechaoa/article/details/52963196)
+
+### Dagger 2（Google）
+* **compile 'com.google.dagger:dagger:2.x'**
+* **annotationProcessor 'com.google.dagger:dagger-compiler:2.x'**
+* Github：https://github.com/google/dagger
+
+### EventBus
+* **compile 'org.greenrobot:eventbus:3.0.0'**
+* Github：https://github.com/greenrobot/EventBus
+* 相关文章：[EventBus使用详解(一)——初步使用EventBus](http://blog.csdn.net/harvic880925/article/details/40660137)
+					[EventBus使用详解(二)——EventBus使用进阶](http://blog.csdn.net/harvic880925/article/details/40787203)
+					
+### PermissionsDispatcher（6.0权限）
+* **compile 'com.github.hotchemi:permissionsdispatcher:2.2.0'**
+* **apt 'com.github.hotchemi:permissionsdispatcher-processor:2.2.0'**
+* **classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'**
+* GitHub：https://github.com/hotchemi/PermissionsDispatcher
+* 相关文章：[Android6.0运行时权限。](http://blog.csdn.net/yechaoa/article/details/61920584)
+
+### Android Saripaar v2（表单校验）
+* **compile 'com.mobsandgeeks:android-saripaar:2.0.3'**
+* Github：https://github.com/ragunathjawahar/android-saripaar/
+* 相关文章：[Android之表单验证，Validation三方集成。](http://blog.csdn.net/yechaoa/article/details/60875310)
+
+### AndroidUtilCode（各种util）
+* **compile 'com.blankj:utilcode:1.6.4'**
+* GitHub：https://github.com/Blankj/AndroidUtilCode
+
+
+> ## 网络
+
 
 ### OkHttp
 * **compile 'com.squareup.okhttp3:okhttp:3.9.0'**
@@ -121,28 +154,9 @@ Platform bindings:
 
 * GitHub：https://github.com/JakeWharton/RxBinding
 
-### Dagger 2（Google）
-* **compile 'com.google.dagger:dagger:2.x'**
-* **annotationProcessor 'com.google.dagger:dagger-compiler:2.x'**
-* Github：https://github.com/google/dagger
 
-### EventBus
-* **compile 'org.greenrobot:eventbus:3.0.0'**
-* Github：https://github.com/greenrobot/EventBus
-* 相关文章：[EventBus使用详解(一)——初步使用EventBus](http://blog.csdn.net/harvic880925/article/details/40660137)
-					[EventBus使用详解(二)——EventBus使用进阶](http://blog.csdn.net/harvic880925/article/details/40787203)
-					
-### PermissionsDispatcher（6.0权限）
-* **compile 'com.github.hotchemi:permissionsdispatcher:2.2.0'**
-* **apt 'com.github.hotchemi:permissionsdispatcher-processor:2.2.0'**
-* **classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'**
-* GitHub：https://github.com/hotchemi/PermissionsDispatcher
-* 相关文章：[Android6.0运行时权限。](http://blog.csdn.net/yechaoa/article/details/61920584)
+> ## UI
 
-### Android Saripaar v2（表单校验）
-* **compile 'com.mobsandgeeks:android-saripaar:2.0.3'**
-* Github：https://github.com/ragunathjawahar/android-saripaar/
-* 相关文章：[Android之表单验证，Validation三方集成。](http://blog.csdn.net/yechaoa/article/details/60875310)
 
 ### Android View Animations（各种动画）
 * **compile 'com.android.support:support-compat:25.1.1'**
@@ -180,10 +194,6 @@ Platform bindings:
 ### RichText（富文本解析器）
 * **compile 'com.zzhoujay.richtext:richtext:2.5.2'**
 * GitHub：https://github.com/zzhoujay/RichText
-
-### AndroidUtilCode（各种util）
-* **compile 'com.blankj:utilcode:1.6.4'**
-* GitHub：https://github.com/Blankj/AndroidUtilCode
 
 ### ViewPagerIndicator
 * **compile 'com.shizhefei:ViewPagerIndicator:1.1.5'**
@@ -246,6 +256,9 @@ Platform bindings:
 
 # 四、各种常用的网站
 
+### GitHub
+* https://github.com/
+
 ### Json在线解析
 * http://www.sojson.com/
 
@@ -257,6 +270,12 @@ Platform bindings:
 
 ### CSDN全球最大中文IT社区
 * http://www.csdn.net/
+
+### 简书
+* http://www.jianshu.com/
+
+### Android开发技术周报
+* http://androidweekly.cn/
 
 ### ProcessOn免费在线作图，实时协作
 * https://www.processon.com/
@@ -291,14 +310,9 @@ Platform bindings:
 ### 360加固保
 * http://jiagu.360.cn/
 
-### GitHub
-* https://github.com/
 
-### 简书
-* http://www.jianshu.com/
 
-### Android开发技术周报
-* http://androidweekly.cn/
+
 
 <br><br><br>
 #### 持续更新。。。
