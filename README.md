@@ -278,8 +278,17 @@ Platform bindings:
 # 四、各种常用的网站
 
 
+### AndroidDevTools（各种android相关工具下载）
+* http://www.androiddevtools.cn/index.html
+
+### 在线文档-JDK
+* http://tool.oschina.net/apidocs/apidoc?api=jdk_7u4
+
 ### GitHub
 * https://github.com/
+
+### Font Awesome Icons
+* http://fontawesome.io/icons/
 
 ### Json在线解析
 * http://www.sojson.com/
