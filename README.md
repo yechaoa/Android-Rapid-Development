@@ -203,6 +203,10 @@ Platform bindings:
 * **compile 'com.jude:easyrecyclerview:4.4.0'**
 * GitHub：https://github.com/Jude95/EasyRecyclerView
 
+### BaseRecyclerViewAdapterHelper
+* **compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.31'**
+* GitHub：https://github.com/CymChad/BaseRecyclerViewAdapterHelper
+
 ### vlayout（RecyclerView的LayoutManager扩展-阿里）
 * **compile ('com.alibaba.android:vlayout:1.0.7@aar') {transitive = true}**
 * GitHub：https://github.com/alibaba/vlayout
@@ -219,9 +223,17 @@ Platform bindings:
 * **compile 'com.github.LuckSiege:EasyIndicator:v1.1.1'**
 * GitHub：https://github.com/LuckSiege/EasyIndicator
 
-### ImagePicker（图片选择器）
+### ImagePicker（图片选择器，okgo作者）
 * **compile 'com.lzy.widget:imagepicker:0.5.5'**
 * GitHub：https://github.com/jeasonlzy/ImagePicker
+
+### PictureSelector
+* **compile 'com.github.LuckSiege.PictureSelector:picture_library:v2.1.1'**
+* GitHub：https://github.com/LuckSiege/PictureSelector
+
+### Matisse（知乎开源图片选择器）
+* **compile 'com.zhihu.android:matisse:0.4.3'**
+* GitHub：https://github.com/zhihu/Matisse
 
 ### PhotoView
 * **compile 'com.github.chrisbanes:PhotoView:2.0.0'**
@@ -320,6 +332,9 @@ Platform bindings:
 ### Mob开放平台（天气、短信、分享等）
 * http://www.mob.com/
 
+### 聚合数据（各种开放API）
+* https://www.juhe.cn/
+
 ### 融云（即时通讯）
 * http://www.rongcloud.cn/
 
@@ -340,6 +355,9 @@ Platform bindings:
 
 ### 360加固保
 * http://jiagu.360.cn/
+
+### Material Design（参考文档）
+* http://www.materialdoc.cn/
 
 
 
