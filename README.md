@@ -73,9 +73,11 @@ allprojects {
 					[EventBus使用详解(二)——EventBus使用进阶](http://blog.csdn.net/harvic880925/article/details/40787203)
 					
 ### PermissionsDispatcher（6.0权限）
-* **compile 'com.github.hotchemi:permissionsdispatcher:2.2.0'**
-* **apt 'com.github.hotchemi:permissionsdispatcher-processor:2.2.0'**
-* **classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'**
+* ** compile("com.github.hotchemi:permissionsdispatcher:3.0.1") {
+        // if you don't use android.app.Fragment you can exclude support for them
+        exclude module: "support-v13"
+    } **
+* **annotationProcessor "com.github.hotchemi:permissionsdispatcher-processor:3.0.1"**
 * GitHub：https://github.com/hotchemi/PermissionsDispatcher
 * 相关文章：[Android6.0运行时权限。](http://blog.csdn.net/yechaoa/article/details/61920584)
 
@@ -296,6 +298,15 @@ Platform bindings:
 ### 在线文档-JDK
 * http://tool.oschina.net/apidocs/apidoc?api=jdk_7u4
 
+### 在线文档-Android
+* https://developer.android.google.cn/develop/index.html
+
+### 在线文档-Kotlin
+* https://github.com/wangjiegulu/kotlin-for-android-developers-zh/blob/master/SUMMARY.md
+
+### 在线文档-Glide
+* https://muyangmin.github.io/glide-docs-cn/
+
 ### GitHub
 * https://github.com/
 
@@ -349,6 +360,9 @@ Platform bindings:
 
 ### w3school（HTML）
 * http://www.w3school.com.cn/tags/index.asp
+
+### Bootstrap*组件
+* http://v3.bootcss.com/components/
 
 ### 友盟（推送统计）
 * http://www.umeng.com/
