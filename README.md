@@ -1,12 +1,12 @@
 # Android-Rapid-Development
 Android快速开发整理（库、插件、常用网站）
 # 一、官方支持库
-#### compile 'com.android.support:appcompat-v7:25.3.1'
-#### compile 'com.android.support:support-v4:25.3.1'
-#### compile 'com.android.support:recyclerview-v7:25.3.1'
-#### compile 'com.android.support:support-v13:25.3.1'
-#### compile 'com.android.support:design:25.3.1'
-#### compile 'com.android.support:cardview-v7:25.3.1'
+#### compile 'com.android.support:appcompat-v7:25.4.0'
+#### compile 'com.android.support:support-v4:25.4.0'
+#### compile 'com.android.support:recyclerview-v7:25.4.0'
+#### compile 'com.android.support:support-v13:25.4.0'
+#### compile 'com.android.support:design:25.4.0'
+#### compile 'com.android.support:cardview-v7:25.4.0'
 #### 目前最新版本26.0.2，需要compileSdkVersion 26
 <br>
 # 二、第三方库
