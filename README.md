@@ -40,10 +40,7 @@ allprojects {
 * **compile 'com.github.bumptech.glide:glide:4.4.0'**
 * **annotationProcessor 'com.github.bumptech.glide:compiler:4.4.0'**
 * GitHub：https://github.com/bumptech/glide
-* 相关文章：[Glide、Picasso和Fresco](http://blog.csdn.net/yechaoa/article/details/70948445)
-					郭霖的[Android图片加载框架最全解析（一），Glide的基本用法](http://blog.csdn.net/guolin_blog/article/details/53759439)
-					[Android图片加载框架最全解析（二），从源码的角度理解Glide的执行流程](http://blog.csdn.net/guolin_blog/article/details/53939176)
-					[Android图片加载框架最全解析（三），深入探究Glide的缓存机制](http://blog.csdn.net/guolin_blog/article/details/54895665)
+* 相关文章：[带你全面了解Glide 4的用法](http://blog.csdn.net/yechaoa/article/details/78886125)
 					
 ### Glide Transformations
 * **compile 'jp.wasabeef:glide-transformations:3.0.1'**
