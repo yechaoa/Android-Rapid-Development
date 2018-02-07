@@ -38,8 +38,8 @@ allprojects {
 * 相关文章：[Gson 解析教程](http://blog.csdn.net/axuanqq/article/details/51441590)
 
 ### Glide
-* **compile 'com.github.bumptech.glide:glide:4.4.0'**
-* **annotationProcessor 'com.github.bumptech.glide:compiler:4.4.0'**
+* **compile 'com.github.bumptech.glide:glide:4.6.1'**
+* **annotationProcessor 'com.github.bumptech.glide:compiler:4.6.1'**
 * GitHub：https://github.com/bumptech/glide
 * 相关文章：[带你全面了解Glide 4的用法](http://blog.csdn.net/yechaoa/article/details/78886125)
 					
