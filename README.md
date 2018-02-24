@@ -75,11 +75,16 @@ allprojects {
 * 相关文章：[EventBus使用详解(一)——初步使用EventBus](http://blog.csdn.net/harvic880925/article/details/40660137)
 					[EventBus使用详解(二)——EventBus使用进阶](http://blog.csdn.net/harvic880925/article/details/40787203)
 					
+### greenDAO
+* **compile 'org.greenrobot:greendao:3.2.2''**
+* Github：https://github.com/greenrobot/greenDAO
+* 相关文章：[玩转Android之数据库框架greenDAO3.0使用指南](http://blog.csdn.net/yechaoa/article/details/79363096)
+					
 ### PermissionsDispatcher（6.0权限）
-* ** compile("com.github.hotchemi:permissionsdispatcher:3.0.1") {
-        // if you don't use android.app.Fragment you can exclude support for them
-        exclude module: "support-v13"
-    } **
+* ** compile("com.github.hotchemi:permissionsdispatcher:3.0.1") {**
+        **// if you don't use android.app.Fragment you can exclude support for them**
+        **exclude module: "support-v13"**
+    **} **
 * **annotationProcessor "com.github.hotchemi:permissionsdispatcher-processor:3.0.1"**
 * GitHub：https://github.com/hotchemi/PermissionsDispatcher
 * 相关文章：[Android6.0运行时权限。](http://blog.csdn.net/yechaoa/article/details/61920584)
