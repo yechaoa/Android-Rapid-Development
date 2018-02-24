@@ -81,10 +81,10 @@ allprojects {
 * 相关文章：[玩转Android之数据库框架greenDAO3.0使用指南](http://blog.csdn.net/yechaoa/article/details/79363096)
 					
 ### PermissionsDispatcher（6.0权限）
-* ** compile("com.github.hotchemi:permissionsdispatcher:3.0.1") {**
-        **// if you don't use android.app.Fragment you can exclude support for them**
-        **exclude module: "support-v13"**
-    **} **
+* ** compile("com.github.hotchemi:permissionsdispatcher:3.0.1") {<br>
+       	// if you don't use android.app.Fragment you can exclude support for them<br>
+        exclude module: "support-v13"<br>
+    } **
 * **annotationProcessor "com.github.hotchemi:permissionsdispatcher-processor:3.0.1"**
 * GitHub：https://github.com/hotchemi/PermissionsDispatcher
 * 相关文章：[Android6.0运行时权限。](http://blog.csdn.net/yechaoa/article/details/61920584)
