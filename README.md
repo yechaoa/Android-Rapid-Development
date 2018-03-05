@@ -89,6 +89,10 @@ allprojects {
 * GitHub：https://github.com/hotchemi/PermissionsDispatcher
 * 相关文章：[Android6.0运行时权限。](http://blog.csdn.net/yechaoa/article/details/61920584)
 
+### RxPermissions（6.0权限）
+* **compile 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.5@aar'**
+* GitHub：https://github.com/tbruyelle/RxPermissions
+
 ### Android Saripaar v2（表单校验）
 * **compile 'com.mobsandgeeks:android-saripaar:2.0.3'**
 * Github：https://github.com/ragunathjawahar/android-saripaar/
