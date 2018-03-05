@@ -118,6 +118,10 @@ allprojects {
 * GitHub：https://github.com/hongyangAndroid/okhttputils
 * 相关文章：[Android OkHttp完全解析 是时候来了解OkHttp了](http://blog.csdn.net/lmj623565791/article/details/47911083)
 
+### OkGo
+* **compile 'com.lzy.net:okgo:3.0.4'**
+* GitHub：https://github.com/jeasonlzy/okhttp-OkGo
+
 ### xUtils3
 * **compile 'org.xutils:xutils:3.5.0'**
 * GitHub：https://github.com/wyouflf/xUtils3
@@ -190,9 +194,17 @@ Platform bindings:
 * **compile 'com.daimajia.androidanimations:library:2.2@aar'**
 * GitHub：https://github.com/daimajia/AndroidViewAnimations
 
+### hellocharts-android（图表）
+* **compile 'com.github.lecho:hellocharts-android:v1.5.8'**
+* GitHub：https://github.com/lecho/hellocharts-android
+
 ### BottomBar（底部导航栏）
 * **compile 'com.roughike:bottom-bar:2.3.1'**
 * GitHub：https://github.com/roughike/BottomBar
+
+### BottomNavigationViewEx
+* **compile 'com.github.ittianyu:BottomNavigationViewEx:1.2.4''**
+* GitHub：https://github.com/ittianyu/BottomNavigationViewEx
 
 ### Banner（图片轮播控件）
 * **compile 'com.youth.banner:banner:1.4.10'**
