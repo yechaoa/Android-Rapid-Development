@@ -10,7 +10,6 @@ Android快速开发整理（库、插件、常用网站）
 #### compile 'com.android.support:design:26.1.0'
 #### compile 'com.android.support:cardview-v7:26.1.0'
 #### ...
-#### 目前最新版本27.0.1，需要compileSdkVersion 27
 
 <br>
 
@@ -33,32 +32,32 @@ allprojects {
 <br>
 
 ### Gson
-* **compile 'com.google.code.gson:gson:2.8.2'**
+* **implementation 'com.google.code.gson:gson:2.8.5'**
 * GitHub：https://github.com/google/gson
 * 相关文章：[Gson 解析教程](http://blog.csdn.net/axuanqq/article/details/51441590)
 
 ### Glide
-* **compile 'com.github.bumptech.glide:glide:4.6.1'**
-* **annotationProcessor 'com.github.bumptech.glide:compiler:4.6.1'**
+* **implementation 'com.github.bumptech.glide:glide:4.8.0'**
+* **annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'**
 * GitHub：https://github.com/bumptech/glide
 * 相关文章：[带你全面了解Glide 4的用法](http://blog.csdn.net/yechaoa/article/details/78886125)
 					
 ### Glide Transformations
-* **compile 'jp.wasabeef:glide-transformations:3.0.1'**
+* **implementation 'jp.wasabeef:glide-transformations:3.3.0'**
 * Github：https://github.com/wasabeef/glide-transformations
 
 ### Picasso
-* **compile 'com.squareup.picasso:picasso:2.5.2'**
+* **implementation 'com.squareup.picasso:picasso:2.71828'**
 * 官网：http://square.github.io/picasso/
 * GitHub：https://github.com/square/picasso
 * 相关文章：[picasso-强大的Android图片下载缓存库](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2014/0731/1639.html)
 
 ### Picasso Transformations
-* **compile 'jp.wasabeef:picasso-transformations:2.1.2'**
+* **compile 'jp.wasabeef:picasso-transformations:2.2.1'**
 * Github：https://github.com/wasabeef/picasso-transformations
 
 ### Butter Knife
-* **compile 'com.jakewharton:butterknife:8.8.1'**
+* **implementation 'com.jakewharton:butterknife:8.8.1'**
 * **annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'**
 * 官网：[http://jakewharton.github.io/butterknife/](http://jakewharton.github.io/butterknife/)
 * GitHub：https://github.com/JakeWharton/butterknife
@@ -70,27 +69,24 @@ allprojects {
 * Github：https://github.com/google/dagger
 
 ### EventBus
-* **compile 'org.greenrobot:eventbus:3.0.0'**
+* **compile 'org.greenrobot:eventbus:3.1.1'**
 * Github：https://github.com/greenrobot/EventBus
 * 相关文章：[EventBus使用详解(一)——初步使用EventBus](http://blog.csdn.net/harvic880925/article/details/40660137)
 					[EventBus使用详解(二)——EventBus使用进阶](http://blog.csdn.net/harvic880925/article/details/40787203)
 					
 ### greenDAO
-* **compile 'org.greenrobot:greendao:3.2.2''**
+* **implementation 'org.greenrobot:greendao:3.2.2'**
 * Github：https://github.com/greenrobot/greenDAO
 * 相关文章：[玩转Android之数据库框架greenDAO3.0使用指南](http://blog.csdn.net/yechaoa/article/details/79363096)
 					
 ### PermissionsDispatcher（6.0权限）
-* ** compile("com.github.hotchemi:permissionsdispatcher:3.0.1") {<br>
-       	// if you don't use android.app.Fragment you can exclude support for them<br>
-        exclude module: "support-v13"<br>
-    } **
-* **annotationProcessor "com.github.hotchemi:permissionsdispatcher-processor:3.0.1"**
+* **implementation "com.github.hotchemi:permissionsdispatcher:4.0.0-alpha1"**
+* **annotationProcessor "com.github.hotchemi:permissionsdispatcher-processor:4.0.0-alpha1"**
 * GitHub：https://github.com/hotchemi/PermissionsDispatcher
 * 相关文章：[Android6.0运行时权限。](http://blog.csdn.net/yechaoa/article/details/61920584)
 
 ### RxPermissions（6.0权限）
-* **compile 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.5@aar'**
+* **implementation 'com.github.tbruyelle:rxpermissions:0.10.2'**
 * GitHub：https://github.com/tbruyelle/RxPermissions
 
 ### Android Saripaar v2（表单校验）
@@ -99,11 +95,11 @@ allprojects {
 * 相关文章：[Android之表单验证，Validation三方集成。](http://blog.csdn.net/yechaoa/article/details/60875310)
 
 ### YUtils（Android快速开发工具集合）
-* **compile 'com.github.yechaoa:YUtils:2.0.5'**
+* **implementation 'com.github.yechaoa:YUtils:2.1.0'**
 * GitHub：https://github.com/yechaoa/YUtils
 
 ### AndroidUtilCode（各种util）
-* **compile 'com.blankj:utilcode:1.6.4'**
+* **implementation 'com.blankj:utilcode:1.19.0'**
 * GitHub：https://github.com/Blankj/AndroidUtilCode
 
 <br>
@@ -113,7 +109,7 @@ allprojects {
 <br>
 
 ### OkHttp
-* **compile 'com.squareup.okhttp3:okhttp:3.9.0'**
+* **implementation 'com.squareup.okhttp3:okhttp:3.11.0'**
 * 官网：http://square.github.io/okhttp/
 * GitHub：https://github.com/square/okhttp
 
@@ -136,22 +132,22 @@ allprojects {
                      [MVP快速开发框架](http://www.jianshu.com/p/d98013e0cd03)
 		     
 ### Retrofit
-* **compile 'com.squareup.retrofit2:retrofit:2.3.0'**
+* **implementation 'com.squareup.retrofit2:retrofit:2.4.0'**
 * 官网：[http://square.github.io/retrofit/](http://square.github.io/retrofit/)
 * GitHub：https://github.com/square/retrofit
 
 ### RX系列：https://github.com/ReactiveX
 
 ### RxJava
-* **compile "io.reactivex.rxjava2:rxjava:2.1.3"**
+* **implementation "io.reactivex.rxjava2:rxjava:2.2.0"**
 * Github：https://github.com/ReactiveX/RxJava
 
 ### RxAndroid
-* **compile 'io.reactivex.rxjava2:rxandroid:2.0.1'**
+* **implementation 'io.reactivex.rxjava2:rxandroid:2.1.0'**
 * Github：https://github.com/ReactiveX/RxAndroid
 
 ### RxKotlin
-* **compile 'io.reactivex:rxkotlin:x.y.z'**
+* **compile 'io.reactivex:rxkotlin:2.2.0'**
 * Github：https://github.com/ReactiveX/RxKotlin
 * Kotlin：[Kotlin中文文档](https://github.com/wangjiegulu/kotlin-for-android-developers-zh/blob/master/SUMMARY.md?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
 
@@ -215,7 +211,7 @@ Platform bindings:
 * GitHub：https://github.com/youth5201314/banner
 
 ### Dachshund-Tab-Layout
-* **compile 'com.github.Andy671:Dachshund-Tab-Layout:v0.3.1'**
+* **compile 'com.github.Andy671:Dachshund-Tab-Layout:v0.3.3'**
 * GitHub：https://github.com/Andy671/Dachshund-Tab-Layout
 
 ### Android PagerSlidingTabStrip（滑动导航栏）
@@ -234,57 +230,65 @@ Platform bindings:
 * GitHub：https://github.com/supercwn/SuperRecycleView
 
 ### EasyRecyclerView
-* **compile 'com.jude:easyrecyclerview:4.4.0'**
+* **compile 'com.jude:easyrecyclerview:4.4.2'**
 * GitHub：https://github.com/Jude95/EasyRecyclerView
 
 ### BaseRecyclerViewAdapterHelper
-* **compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.31'**
+* **compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.41'**
 * GitHub：https://github.com/CymChad/BaseRecyclerViewAdapterHelper
 
 ### vlayout（RecyclerView的LayoutManager扩展-阿里）
-* **compile ('com.alibaba.android:vlayout:1.0.7@aar') {transitive = true}**
+* **compile ('com.alibaba.android:vlayout:1.2.8@aar') {transitive = true}**
 * GitHub：https://github.com/alibaba/vlayout
 
 ### RichText（富文本解析器）
-* **compile 'com.zzhoujay.richtext:richtext:2.5.2'**
+* **compile 'com.zzhoujay.richtext:richtext:3.0.7'**
 * GitHub：https://github.com/zzhoujay/RichText
 
 ### ViewPagerIndicator
-* **compile 'com.shizhefei:ViewPagerIndicator:1.1.5'**
+* **compile 'com.shizhefei:ViewPagerIndicator:1.1.7'**
 * GitHub：https://github.com/LuckyJayce/ViewPagerIndicator
 
 ### EasyIndicator
-* **compile 'com.github.LuckSiege:EasyIndicator:v1.1.1'**
+* **compile 'com.github.LuckSiege:EasyIndicator:v1.1.3'**
 * GitHub：https://github.com/LuckSiege/EasyIndicator
 
 ### ImagePicker（图片选择器，okgo作者）
-* **compile 'com.lzy.widget:imagepicker:0.5.5'**
+* **compile 'com.lzy.widget:imagepicker:0.6.1'**
 * GitHub：https://github.com/jeasonlzy/ImagePicker
 
 ### PictureSelector
-* **compile 'com.github.LuckSiege.PictureSelector:picture_library:v2.1.1'**
+* **implementation 'com.github.LuckSiege.PictureSelector:picture_library:v2.2.3'**
 * GitHub：https://github.com/LuckSiege/PictureSelector
 
 ### Matisse（知乎开源图片选择器）
-* **compile 'com.zhihu.android:matisse:0.4.3'**
+* **compile 'com.zhihu.android:matisse:0.5.2-beta2'**
 * GitHub：https://github.com/zhihu/Matisse
 
 ### PhotoView
-* **compile 'com.github.chrisbanes:PhotoView:2.0.0'**
+* **compile 'com.github.chrisbanes:PhotoView:2.1.4'**
 * GitHub：https://github.com/chrisbanes/PhotoView
 
 ### Android-SpinKit（Android loading animations）
-* **compile 'com.github.ybq:Android-SpinKit:1.0.5'**
+* **compile 'com.github.ybq:Android-SpinKit:1.1.0'**
 * GitHub：https://github.com/ybq/Android-SpinKit
 * 官网：http://ybq.github.io/Android-SpinKit/
 
 ### Toasty
-* **compile 'com.github.GrenderG:Toasty:1.2.5'**
+* **implementation 'com.github.GrenderG:Toasty:1.3.0'**
 * GitHub：https://github.com/GrenderG/Toasty
 
 ### DialogPlus（各种样式的Dialog）
-* **compile 'com.orhanobut:dialogplus:1.11@aar'**
+* **implementation 'com.orhanobut:dialogplus:1.11@aar'**
 * GitHub：https://github.com/orhanobut/dialogplus
+
+### MaterialDateTimePicker
+* **compile 'com.wdullaer:materialdatetimepicker:3.6.3'**
+* GitHub：https://github.com/wdullaer/MaterialDateTimePicker
+
+### FloatingActionButton
+* **compile 'com.github.clans:fab:1.6.4'**
+* GitHub：https://github.com/Clans/FloatingActionButton
 
 
 # 三、各种好用的插件
