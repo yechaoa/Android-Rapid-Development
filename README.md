@@ -1,6 +1,8 @@
 # Android-Rapid-Development
 Android快速开发整理（库、插件、常用网站）
 
+> **转载请明显标注出处**
+
 # 一、官方支持库
 
 #### compile 'com.android.support:appcompat-v7:26.1.0'
@@ -289,6 +291,10 @@ Platform bindings:
 ### FloatingActionButton
 * **compile 'com.github.clans:fab:1.6.4'**
 * GitHub：https://github.com/Clans/FloatingActionButton
+
+### CityPicker
+* **compile 'liji.library.dev:citypickerview:3.1.13'**
+* GitHub：https://github.com/crazyandcoder/citypicker
 
 
 # 三、各种好用的插件
