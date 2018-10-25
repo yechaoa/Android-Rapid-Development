@@ -59,8 +59,8 @@ allprojects {
 * Github：https://github.com/wasabeef/picasso-transformations
 
 ### Butter Knife
-* **implementation 'com.jakewharton:butterknife:8.8.1'**
-* **annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'**
+* **implementation 'com.jakewharton:butterknife:9.0.0-rc1'**
+* **annotationProcessor 'com.jakewharton:butterknife-compiler:9.0.0-rc1'**
 * 官网：[http://jakewharton.github.io/butterknife/](http://jakewharton.github.io/butterknife/)
 * GitHub：https://github.com/JakeWharton/butterknife
 * 相关文章：[Butter Knife 配置和使用及插件](http://blog.csdn.net/yechaoa/article/details/52963196)
@@ -400,6 +400,15 @@ Platform bindings:
 
 ### 微信开放平台
 * https://open.weixin.qq.com/
+
+### 腾讯信鸽推送
+* https://xg.qq.com/docs/android_access/jcenter.html
+
+### 阿里移动热修复
+* https://help.aliyun.com/product/51340.html
+
+### 阿里移动推送
+* https://www.aliyun.com/product/cps
 
 ### w3school（HTML）
 * http://www.w3school.com.cn/tags/index.asp
