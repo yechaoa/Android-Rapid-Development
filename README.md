@@ -39,13 +39,13 @@ allprojects {
 * 相关文章：[Gson 解析教程](http://blog.csdn.net/axuanqq/article/details/51441590)
 
 ### Glide
-* **implementation 'com.github.bumptech.glide:glide:4.8.0'**
-* **annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'**
+* **implementation 'com.github.bumptech.glide:glide:4.9.0'**
+* **annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'**
 * GitHub：https://github.com/bumptech/glide
 * 相关文章：[带你全面了解Glide 4的用法](http://blog.csdn.net/yechaoa/article/details/78886125)
 					
 ### Glide Transformations
-* **implementation 'jp.wasabeef:glide-transformations:3.3.0'**
+* **implementation 'jp.wasabeef:glide-transformations:4.0.1'**
 * Github：https://github.com/wasabeef/glide-transformations
 
 ### Picasso
@@ -59,15 +59,15 @@ allprojects {
 * Github：https://github.com/wasabeef/picasso-transformations
 
 ### Butter Knife
-* **implementation 'com.jakewharton:butterknife:9.0.0-rc1'**
-* **annotationProcessor 'com.jakewharton:butterknife-compiler:9.0.0-rc1'**
+* **implementation 'com.jakewharton:butterknife:10.1.0'**
+* **annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'**
 * 官网：[http://jakewharton.github.io/butterknife/](http://jakewharton.github.io/butterknife/)
 * GitHub：https://github.com/JakeWharton/butterknife
 * 相关文章：[Butter Knife 配置和使用及插件](http://blog.csdn.net/yechaoa/article/details/52963196)
 
 ### Dagger 2（Google）
-* **compile 'com.google.dagger:dagger:2.x'**
-* **annotationProcessor 'com.google.dagger:dagger-compiler:2.x'**
+* **compile 'com.google.dagger:dagger:2.22.1'**
+* **annotationProcessor 'com.google.dagger:dagger-compiler:2.22.1'**
 * Github：https://github.com/google/dagger
 
 ### EventBus
@@ -82,8 +82,8 @@ allprojects {
 * 相关文章：[玩转Android之数据库框架greenDAO3.0使用指南](http://blog.csdn.net/yechaoa/article/details/79363096)
 					
 ### PermissionsDispatcher（6.0权限）
-* **implementation "com.github.hotchemi:permissionsdispatcher:4.0.0-alpha1"**
-* **annotationProcessor "com.github.hotchemi:permissionsdispatcher-processor:4.0.0-alpha1"**
+* **implementation "com.github.hotchemi:permissionsdispatcher:4.3.1"**
+* **annotationProcessor "com.github.hotchemi:permissionsdispatcher-processor:4.3.1"**
 * GitHub：https://github.com/hotchemi/PermissionsDispatcher
 * 相关文章：[Android6.0运行时权限。](http://blog.csdn.net/yechaoa/article/details/61920584)
 
@@ -101,7 +101,7 @@ allprojects {
 * GitHub：https://github.com/yechaoa/YUtils
 
 ### AndroidUtilCode（各种util）
-* **implementation 'com.blankj:utilcode:1.19.0'**
+* **implementation 'com.blankj:utilcode:1.23.7'**
 * GitHub：https://github.com/Blankj/AndroidUtilCode
 
 <br>
@@ -111,7 +111,7 @@ allprojects {
 <br>
 
 ### OkHttp
-* **implementation 'com.squareup.okhttp3:okhttp:3.11.0'**
+* **implementation 'com.squareup.okhttp3:okhttp:3.14.1'**
 * 官网：http://square.github.io/okhttp/
 * GitHub：https://github.com/square/okhttp
 
@@ -134,22 +134,22 @@ allprojects {
                      [MVP快速开发框架](http://www.jianshu.com/p/d98013e0cd03)
 		     
 ### Retrofit
-* **implementation 'com.squareup.retrofit2:retrofit:2.4.0'**
+* **implementation 'com.squareup.retrofit2:retrofit:2.5.0'**
 * 官网：[http://square.github.io/retrofit/](http://square.github.io/retrofit/)
 * GitHub：https://github.com/square/retrofit
 
 ### RX系列：https://github.com/ReactiveX
 
 ### RxJava
-* **implementation "io.reactivex.rxjava2:rxjava:2.2.0"**
+* **implementation "io.reactivex.rxjava2:rxjava:2.2.8"**
 * Github：https://github.com/ReactiveX/RxJava
 
 ### RxAndroid
-* **implementation 'io.reactivex.rxjava2:rxandroid:2.1.0'**
+* **implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'**
 * Github：https://github.com/ReactiveX/RxAndroid
 
 ### RxKotlin
-* **compile 'io.reactivex:rxkotlin:2.2.0'**
+* **compile 'io.reactivex:rxkotlin:2.3.0'**
 * Github：https://github.com/ReactiveX/RxKotlin
 * Kotlin：[Kotlin中文文档](https://github.com/wangjiegulu/kotlin-for-android-developers-zh/blob/master/SUMMARY.md?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
 
@@ -236,7 +236,7 @@ Platform bindings:
 * GitHub：https://github.com/Jude95/EasyRecyclerView
 
 ### BaseRecyclerViewAdapterHelper
-* **compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.41'**
+* **compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.46'**
 * GitHub：https://github.com/CymChad/BaseRecyclerViewAdapterHelper
 
 ### vlayout（RecyclerView的LayoutManager扩展-阿里）
@@ -244,7 +244,7 @@ Platform bindings:
 * GitHub：https://github.com/alibaba/vlayout
 
 ### RichText（富文本解析器）
-* **compile 'com.zzhoujay.richtext:richtext:3.0.7'**
+* **compile 'com.zzhoujay.richtext:richtext:3.0.8'**
 * GitHub：https://github.com/zzhoujay/RichText
 
 ### ViewPagerIndicator
@@ -264,20 +264,20 @@ Platform bindings:
 * GitHub：https://github.com/LuckSiege/PictureSelector
 
 ### Matisse（知乎开源图片选择器）
-* **compile 'com.zhihu.android:matisse:0.5.2-beta2'**
+* **compile 'com.zhihu.android:matisse:0.5.2-beta4'**
 * GitHub：https://github.com/zhihu/Matisse
 
 ### PhotoView
-* **compile 'com.github.chrisbanes:PhotoView:2.1.4'**
+* **compile 'com.github.chrisbanes:PhotoView:2.3.0'**
 * GitHub：https://github.com/chrisbanes/PhotoView
 
 ### Android-SpinKit（Android loading animations）
-* **compile 'com.github.ybq:Android-SpinKit:1.1.0'**
+* **compile 'com.github.ybq:Android-SpinKit:1.2.0'**
 * GitHub：https://github.com/ybq/Android-SpinKit
 * 官网：http://ybq.github.io/Android-SpinKit/
 
 ### Toasty
-* **implementation 'com.github.GrenderG:Toasty:1.3.0'**
+* **implementation 'com.github.GrenderG:Toasty:1.4.2'**
 * GitHub：https://github.com/GrenderG/Toasty
 
 ### DialogPlus（各种样式的Dialog）
@@ -285,7 +285,7 @@ Platform bindings:
 * GitHub：https://github.com/orhanobut/dialogplus
 
 ### MaterialDateTimePicker
-* **compile 'com.wdullaer:materialdatetimepicker:3.6.3'**
+* **compile 'com.wdullaer:materialdatetimepicker:4.1.2'**
 * GitHub：https://github.com/wdullaer/MaterialDateTimePicker
 
 ### FloatingActionButton
@@ -293,8 +293,40 @@ Platform bindings:
 * GitHub：https://github.com/Clans/FloatingActionButton
 
 ### CityPicker
-* **compile 'liji.library.dev:citypickerview:3.1.13'**
+* **compile 'liji.library.dev:citypickerview:4.2.1'**
 * GitHub：https://github.com/crazyandcoder/citypicker
+
+### VerticalTabLayout
+* **compile 'q.rorbin:VerticalTabLayout:1.2.5'**
+* GitHub：https://github.com/qstumn/VerticalTabLayout
+
+### SmartRefreshLayout(下拉刷新框架)
+* **compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-21'**
+* GitHub：https://github.com/scwang90/SmartRefreshLayout
+
+### AgentWeb(WebView框架)
+* **api 'com.just.agentweb:agentweb:4.0.3-alpha@aar'**
+* GitHub：https://github.com/Justson/AgentWeb
+
+### FragmentRigger(Fragment管理框架)
+* **接入引导：https://github.com/JingYeoh/FragmentRigger/wiki/%E9%A6%96%E9%A1%B5**
+* GitHub：https://github.com/JingYeoh/FragmentRigger
+
+### GSYVideoPlayer(视频播放器)
+* **implementation 'com.shuyu:GSYVideoPlayer:7.0.1'**
+* GitHub：https://github.com/CarGuo/GSYVideoPlayer
+
+### SwipeBackLayout(滑动返回)
+* **compile 'me.imid.swipebacklayout.lib:library:1.1.0'**
+* GitHub：https://github.com/ikew0ng/SwipeBackLayout
+
+### BGASwipeBackLayout-Android
+* **compile 'cn.bingoogolapple:bga-swipebacklayout:latestVersion@aar'**
+* GitHub：https://github.com/bingoogolapple/BGASwipeBackLayout-Android
+
+### recyclerview-animators(recyclerview动画)
+* **implementation 'jp.wasabeef:recyclerview-animators:3.0.0'**
+* GitHub：https://github.com/wasabeef/recyclerview-animators
 
 
 # 三、各种好用的插件
@@ -331,6 +363,12 @@ Platform bindings:
 * 检测内存泄露
 * github：https://github.com/square/leakcanary
 
+### Dart
+* Dart开发插件
+
+### Flutter
+* Flutter开发插件
+
 
 # 四、各种常用的网站
 
@@ -349,6 +387,12 @@ Platform bindings:
 
 ### 在线文档-Glide
 * https://muyangmin.github.io/glide-docs-cn/
+
+### 在线文档-Flutter
+* https://flutterchina.club/widgets-intro/
+
+### Material Design（参考文档）
+* https://materialdoc.cn/components/autocomplete/
 
 ### GitHub
 * https://github.com/
@@ -371,6 +415,12 @@ Platform bindings:
 ### 简书
 * http://www.jianshu.com/
 
+### 玩安卓
+* https://www.wanandroid.com/
+
+### HenCoder
+* https://hencoder.com/
+
 ### Android开发技术周报
 * http://androidweekly.cn/
 
@@ -392,8 +442,17 @@ Platform bindings:
 ### 融云（即时通讯）
 * http://www.rongcloud.cn/
 
+### 网易云信（即时通讯）
+* https://netease.im/
+
 ### 蚂蚁金服开放平台（支付宝）
 * https://doc.open.alipay.com/
+
+### 阿里移动热修复
+* https://help.aliyun.com/product/51340.html
+
+### 阿里移动推送
+* https://www.aliyun.com/product/cps
 
 ### 腾讯开放平台
 * http://wiki.open.qq.com/wiki/首页
@@ -404,11 +463,14 @@ Platform bindings:
 ### 腾讯信鸽推送
 * https://xg.qq.com/docs/android_access/jcenter.html
 
-### 阿里移动热修复
-* https://help.aliyun.com/product/51340.html
+### 腾讯Bugly
+* https://bugly.qq.com/v2/
 
-### 阿里移动推送
-* https://www.aliyun.com/product/cps
+### 腾讯地图
+* https://lbs.qq.com/
+
+### 百度地图
+* http://lbsyun.baidu.com/
 
 ### w3school（HTML）
 * http://www.w3school.com.cn/tags/index.asp
@@ -422,8 +484,8 @@ Platform bindings:
 ### 360加固保
 * http://jiagu.360.cn/
 
-### Material Design（参考文档）
-* http://www.materialdoc.cn/
+### 乐固
+* http://legu.qcloud.com/
 
 <br>
 
