@@ -5,12 +5,12 @@ Android快速开发整理（库、插件、常用网站）
 
 # 一、官方支持库
 
-#### compile 'com.android.support:appcompat-v7:26.1.0'
-#### compile 'com.android.support:support-v4:26.1.0'
-#### compile 'com.android.support:recyclerview-v7:26.1.0'
-#### compile 'com.android.support:support-v13:26.1.0'
-#### compile 'com.android.support:design:26.1.0'
-#### compile 'com.android.support:cardview-v7:26.1.0'
+#### implementation 'com.android.support:appcompat-v7:28.0.0'
+#### implementation 'com.android.support:support-v4:28.0.0'
+#### implementation 'com.android.support:recyclerview-v7:28.0.0'
+#### implementation 'com.android.support:support-v13:28.0.0'
+#### implementation 'com.android.support:design:28.0.0'
+#### implementation 'com.android.support:cardview-v7:28.0.0'
 #### ...
 
 <br>
