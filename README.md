@@ -207,7 +207,7 @@ allprojects {
 * GitHub：https://github.com/supercwn/SuperRecycleView
 
 ### EasyRecyclerView
-* **compile 'com.jude:easyrecyclerview:4.4.2'**
+* **implementation 'com.jude:easyrecyclerview:4.4.2'**
 * GitHub：https://github.com/Jude95/EasyRecyclerView
 
 ### BaseRecyclerViewAdapterHelper
