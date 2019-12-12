@@ -13,6 +13,8 @@ Android快速开发整理（库、插件、常用网站）
 #### implementation 'com.android.support:cardview-v7:28.0.0'
 #### ...
 
+> 建议迁移到androidx
+
 <br>
 
 # 二、第三方库
@@ -34,18 +36,18 @@ allprojects {
 <br>
 
 ### Gson
-* **implementation 'com.google.code.gson:gson:2.8.5'**
+* **implementation 'com.google.code.gson:gson:2.8.6'**
 * GitHub：https://github.com/google/gson
 * 相关文章：[Gson 解析教程](http://blog.csdn.net/axuanqq/article/details/51441590)
 
 ### Glide
-* **implementation 'com.github.bumptech.glide:glide:4.9.0'**
-* **annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'**
+* **implementation 'com.github.bumptech.glide:glide:4.10.0'**
+* **annotationProcessor 'com.github.bumptech.glide:compiler:4.10.0'**
 * GitHub：https://github.com/bumptech/glide
 * 相关文章：[带你全面了解Glide 4的用法](http://blog.csdn.net/yechaoa/article/details/78886125)
 					
 ### Glide Transformations
-* **implementation 'jp.wasabeef:glide-transformations:4.0.1'**
+* **implementation 'jp.wasabeef:glide-transformations:4.1.0'**
 * Github：https://github.com/wasabeef/glide-transformations
 
 ### Picasso
@@ -55,23 +57,23 @@ allprojects {
 * 相关文章：[picasso-强大的Android图片下载缓存库](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2014/0731/1639.html)
 
 ### Picasso Transformations
-* **compile 'jp.wasabeef:picasso-transformations:2.2.1'**
+* **implementation 'jp.wasabeef:picasso-transformations:2.2.1'**
 * Github：https://github.com/wasabeef/picasso-transformations
 
 ### Butter Knife
-* **implementation 'com.jakewharton:butterknife:10.1.0'**
-* **annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'**
+* **implementation 'com.jakewharton:butterknife:10.2.0'**
+* **annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.0'**
 * 官网：[http://jakewharton.github.io/butterknife/](http://jakewharton.github.io/butterknife/)
 * GitHub：https://github.com/JakeWharton/butterknife
 * 相关文章：[Butter Knife 配置和使用及插件](http://blog.csdn.net/yechaoa/article/details/52963196)
 
 ### Dagger 2（Google）
-* **compile 'com.google.dagger:dagger:2.22.1'**
-* **annotationProcessor 'com.google.dagger:dagger-compiler:2.22.1'**
+* **implementation 'com.google.dagger:dagger:2.25.2'**
+* **annotationProcessor 'com.google.dagger:dagger-compiler:2.25.2'**
 * Github：https://github.com/google/dagger
 
 ### EventBus
-* **compile 'org.greenrobot:eventbus:3.1.1'**
+* **implementation 'org.greenrobot:eventbus:3.1.1'**
 * Github：https://github.com/greenrobot/EventBus
 * 相关文章：[EventBus使用详解(一)——初步使用EventBus](http://blog.csdn.net/harvic880925/article/details/40660137)
 					[EventBus使用详解(二)——EventBus使用进阶](http://blog.csdn.net/harvic880925/article/details/40787203)
@@ -82,8 +84,8 @@ allprojects {
 * 相关文章：[玩转Android之数据库框架greenDAO3.0使用指南](http://blog.csdn.net/yechaoa/article/details/79363096)
 					
 ### PermissionsDispatcher（6.0权限）
-* **implementation "com.github.hotchemi:permissionsdispatcher:4.3.1"**
-* **annotationProcessor "com.github.hotchemi:permissionsdispatcher-processor:4.3.1"**
+* **implementation "com.github.hotchemi:permissionsdispatcher:4.6.0"**
+* **annotationProcessor "com.github.hotchemi:permissionsdispatcher-processor:4.6.0"**
 * GitHub：https://github.com/hotchemi/PermissionsDispatcher
 * 相关文章：[Android6.0运行时权限。](http://blog.csdn.net/yechaoa/article/details/61920584)
 
@@ -92,7 +94,7 @@ allprojects {
 * GitHub：https://github.com/tbruyelle/RxPermissions
 
 ### Android Saripaar v2（表单校验）
-* **compile 'com.mobsandgeeks:android-saripaar:2.0.3'**
+* **implementation 'com.mobsandgeeks:android-saripaar:2.0.3'**
 * Github：https://github.com/ragunathjawahar/android-saripaar/
 * 相关文章：[Android之表单验证，Validation三方集成。](http://blog.csdn.net/yechaoa/article/details/60875310)
 
@@ -101,7 +103,7 @@ allprojects {
 * GitHub：https://github.com/yechaoa/YUtils
 
 ### AndroidUtilCode（各种util）
-* **implementation 'com.blankj:utilcode:1.23.7'**
+* **implementation 'com.blankj:utilcode:1.26.0'**
 * GitHub：https://github.com/Blankj/AndroidUtilCode
 
 <br>
@@ -111,21 +113,21 @@ allprojects {
 <br>
 
 ### OkHttp
-* **implementation 'com.squareup.okhttp3:okhttp:3.14.1'**
+* **implementation("com.squareup.okhttp3:okhttp:4.2.2")**
 * 官网：http://square.github.io/okhttp/
 * GitHub：https://github.com/square/okhttp
 
 ### okhttp-utils（鸿洋_）
-* **compile 'com.zhy:okhttputils:2.6.2'**
+* **implementation 'com.zhy:okhttputils:2.6.2'**
 * GitHub：https://github.com/hongyangAndroid/okhttputils
 * 相关文章：[Android OkHttp完全解析 是时候来了解OkHttp了](http://blog.csdn.net/lmj623565791/article/details/47911083)
 
 ### OkGo
-* **compile 'com.lzy.net:okgo:3.0.4'**
+* **implementation 'com.lzy.net:okgo:3.0.4'**
 * GitHub：https://github.com/jeasonlzy/okhttp-OkGo
 
 ### xUtils3
-* **compile 'org.xutils:xutils:3.5.0'**
+* **implementation 'org.xutils:xutils:3.8.3'**
 * GitHub：https://github.com/wyouflf/xUtils3
 
 ### MVP
@@ -134,14 +136,14 @@ allprojects {
                      [MVP快速开发框架](http://www.jianshu.com/p/d98013e0cd03)
 		     
 ### Retrofit
-* **implementation 'com.squareup.retrofit2:retrofit:2.5.0'**
+* **implementation 'com.squareup.retrofit2:retrofit:2.7.0'**
 * 官网：[http://square.github.io/retrofit/](http://square.github.io/retrofit/)
 * GitHub：https://github.com/square/retrofit
 
 ### RX系列：https://github.com/ReactiveX
 
 ### RxJava
-* **implementation "io.reactivex.rxjava2:rxjava:2.2.8"**
+* **implementation "io.reactivex.rxjava2:rxjava:3.0.0-RC6"**
 * Github：https://github.com/ReactiveX/RxJava
 
 ### RxAndroid
@@ -149,36 +151,9 @@ allprojects {
 * Github：https://github.com/ReactiveX/RxAndroid
 
 ### RxKotlin
-* **compile 'io.reactivex:rxkotlin:2.3.0'**
+* **implementation 'io.reactivex:rxkotlin:2.4.0'**
 * Github：https://github.com/ReactiveX/RxKotlin
 * Kotlin：[Kotlin中文文档](https://github.com/wangjiegulu/kotlin-for-android-developers-zh/blob/master/SUMMARY.md?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
-
-### RxBinding
-Platform bindings:
-
-* compile 'com.jakewharton.rxbinding2:rxbinding:2.0.0'
-
-'support-v4' library bindings:
-
-* compile 'com.jakewharton.rxbinding2:rxbinding-support-v4:2.0.0'
-
-'appcompat-v7' library bindings:
-
-* compile 'com.jakewharton.rxbinding2:rxbinding-appcompat-v7:2.0.0'
-
-'design' library bindings:
-
-* compile 'com.jakewharton.rxbinding2:rxbinding-design:2.0.0'
-
-'recyclerview-v7' library bindings:
-
-* compile 'com.jakewharton.rxbinding2:rxbinding-recyclerview-v7:2.0.0'
-
-'leanback-v17' library bindings:
-
-* compile 'com.jakewharton.rxbinding2:rxbinding-leanback-v17:2.0.0'
-
-* GitHub：https://github.com/JakeWharton/RxBinding
 
 <br>
 
@@ -187,48 +162,48 @@ Platform bindings:
 <br>
 
 ### MaterialEditText
-* **compile 'com.rengwuxian.materialedittext:library:2.1.4'**
+* **implementation 'com.rengwuxian.materialedittext:library:2.1.4'**
 * GitHub：https://github.com/rengwuxian/MaterialEditText
 
 ### Android View Animations（各种动画）
-* **compile 'com.android.support:support-compat:25.1.1'**
-* **compile 'com.daimajia.easing:library:2.0@aar'**
-* **compile 'com.daimajia.androidanimations:library:2.2@aar'**
+* **implementation 'com.android.support:support-compat:25.1.1'**
+* **implementation 'com.daimajia.easing:library:2.0@aar'**
+* **implementation 'com.daimajia.androidanimations:library:2.2@aar'**
 * GitHub：https://github.com/daimajia/AndroidViewAnimations
 
 ### hellocharts-android（图表）
-* **compile 'com.github.lecho:hellocharts-android:v1.5.8'**
+* **implementation 'com.github.lecho:hellocharts-android:v1.5.8'**
 * GitHub：https://github.com/lecho/hellocharts-android
 
 ### BottomBar（底部导航栏）
-* **compile 'com.roughike:bottom-bar:2.3.1'**
+* **implementation 'com.roughike:bottom-bar:2.3.1'**
 * GitHub：https://github.com/roughike/BottomBar
 
 ### BottomNavigationViewEx
-* **compile 'com.github.ittianyu:BottomNavigationViewEx:1.2.4''**
+* **implementation 'com.github.ittianyu:BottomNavigationViewEx:1.2.4''**
 * GitHub：https://github.com/ittianyu/BottomNavigationViewEx
 
 ### Banner（图片轮播控件）
-* **compile 'com.youth.banner:banner:1.4.10'**
+* **implementation 'com.youth.banner:banner:1.4.10'**
 * GitHub：https://github.com/youth5201314/banner
 
 ### Dachshund-Tab-Layout
-* **compile 'com.github.Andy671:Dachshund-Tab-Layout:v0.3.3'**
+* **implementation 'com.github.Andy671:Dachshund-Tab-Layout:v0.3.3'**
 * GitHub：https://github.com/Andy671/Dachshund-Tab-Layout
 
 ### Android PagerSlidingTabStrip（滑动导航栏）
-* **compile 'com.astuetz:pagerslidingtabstrip:1.0.1'**
+* **implementation 'com.astuetz:pagerslidingtabstrip:1.0.1'**
 * GitHub：https://github.com/astuetz/PagerSlidingTabStrip
 
 ### XRefreshView（支持各种控件刷新）
-* **compile 'com.huxq17.xrefreshview:xrefreshview:3.6.9'**
+* **implementation 'com.huxq17.xrefreshview:xrefreshview:3.6.9'**
 * GitHub：https://github.com/huxq17/XRefreshView
 * 相关文章：[打造android万能上拉下拉刷新框架——XRefreshView (一)](http://blog.csdn.net/footballclub/article/details/46422703)
 					[打造android万能上拉下拉刷新框架——XRefreshView (二)](http://blog.csdn.net/footballclub/article/details/46678521)
 					[打造Android万能上拉下拉刷新框架--XRefreshView（三）](http://blog.csdn.net/footballclub/article/details/46982115)
 					
 ### SuperRecyclerView
-* **compile 'com.supercwn.superrecycleview:superlibrary:1.2.5'**
+* **implementation 'com.supercwn.superrecycleview:superlibrary:1.2.5'**
 * GitHub：https://github.com/supercwn/SuperRecycleView
 
 ### EasyRecyclerView
@@ -236,43 +211,43 @@ Platform bindings:
 * GitHub：https://github.com/Jude95/EasyRecyclerView
 
 ### BaseRecyclerViewAdapterHelper
-* **compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.46'**
+* **implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.50'**
 * GitHub：https://github.com/CymChad/BaseRecyclerViewAdapterHelper
 
 ### vlayout（RecyclerView的LayoutManager扩展-阿里）
-* **compile ('com.alibaba.android:vlayout:1.2.8@aar') {transitive = true}**
+* **implementation ('com.alibaba.android:vlayout:1.2.8@aar') {transitive = true}**
 * GitHub：https://github.com/alibaba/vlayout
 
 ### RichText（富文本解析器）
-* **compile 'com.zzhoujay.richtext:richtext:3.0.8'**
+* **implementation 'com.zzhoujay.richtext:richtext:3.0.8'**
 * GitHub：https://github.com/zzhoujay/RichText
 
 ### ViewPagerIndicator
-* **compile 'com.shizhefei:ViewPagerIndicator:1.1.7'**
+* **implementation 'com.shizhefei:ViewPagerIndicator:1.1.9'**
 * GitHub：https://github.com/LuckyJayce/ViewPagerIndicator
 
 ### EasyIndicator
-* **compile 'com.github.LuckSiege:EasyIndicator:v1.1.3'**
+* **implementation 'com.github.LuckSiege:EasyIndicator:v1.1.3'**
 * GitHub：https://github.com/LuckSiege/EasyIndicator
 
 ### ImagePicker（图片选择器，okgo作者）
-* **compile 'com.lzy.widget:imagepicker:0.6.1'**
+* **implementation 'com.lzy.widget:imagepicker:0.6.1'**
 * GitHub：https://github.com/jeasonlzy/ImagePicker
 
 ### PictureSelector
-* **implementation 'com.github.LuckSiege.PictureSelector:picture_library:v2.2.3'**
+* **implementation 'com.github.LuckSiege.PictureSelector:picture_library:v2.3.9'**
 * GitHub：https://github.com/LuckSiege/PictureSelector
 
 ### Matisse（知乎开源图片选择器）
-* **compile 'com.zhihu.android:matisse:0.5.2-beta4'**
+* **implementation 'com.zhihu.android:matisse:0.5.3-beta3'**
 * GitHub：https://github.com/zhihu/Matisse
 
 ### PhotoView
-* **compile 'com.github.chrisbanes:PhotoView:2.3.0'**
+* **implementation 'com.github.chrisbanes:PhotoView:2.3.0'**
 * GitHub：https://github.com/chrisbanes/PhotoView
 
 ### Android-SpinKit（Android loading animations）
-* **compile 'com.github.ybq:Android-SpinKit:1.2.0'**
+* **implementation 'com.github.ybq:Android-SpinKit:1.4.0'**
 * GitHub：https://github.com/ybq/Android-SpinKit
 * 官网：http://ybq.github.io/Android-SpinKit/
 
@@ -285,27 +260,27 @@ Platform bindings:
 * GitHub：https://github.com/orhanobut/dialogplus
 
 ### MaterialDateTimePicker
-* **compile 'com.wdullaer:materialdatetimepicker:4.1.2'**
+* **implementation 'com.wdullaer:materialdatetimepicker:4.2.3'**
 * GitHub：https://github.com/wdullaer/MaterialDateTimePicker
 
 ### FloatingActionButton
-* **compile 'com.github.clans:fab:1.6.4'**
+* **implementation 'com.github.clans:fab:1.6.4'**
 * GitHub：https://github.com/Clans/FloatingActionButton
 
 ### CityPicker
-* **compile 'liji.library.dev:citypickerview:4.2.1'**
+* **implementation 'liji.library.dev:citypickerview:5.1.0'**
 * GitHub：https://github.com/crazyandcoder/citypicker
 
 ### VerticalTabLayout
-* **compile 'q.rorbin:VerticalTabLayout:1.2.5'**
+* **implementation 'q.rorbin:VerticalTabLayout:1.2.5'**
 * GitHub：https://github.com/qstumn/VerticalTabLayout
 
 ### SmartRefreshLayout(下拉刷新框架)
-* **compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-21'**
+* **implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-21'**
 * GitHub：https://github.com/scwang90/SmartRefreshLayout
 
 ### AgentWeb(WebView框架)
-* **api 'com.just.agentweb:agentweb:4.0.3-alpha@aar'**
+* **api 'com.just.agentweb:agentweb:4.1.2'**
 * GitHub：https://github.com/Justson/AgentWeb
 
 ### FragmentRigger(Fragment管理框架)
@@ -313,15 +288,15 @@ Platform bindings:
 * GitHub：https://github.com/JingYeoh/FragmentRigger
 
 ### GSYVideoPlayer(视频播放器)
-* **implementation 'com.shuyu:GSYVideoPlayer:7.0.1'**
+* **implementation 'com.shuyu:GSYVideoPlayer:7.1.2'**
 * GitHub：https://github.com/CarGuo/GSYVideoPlayer
 
 ### SwipeBackLayout(滑动返回)
-* **compile 'me.imid.swipebacklayout.lib:library:1.1.0'**
+* **implementation 'me.imid.swipebacklayout.lib:library:1.1.0'**
 * GitHub：https://github.com/ikew0ng/SwipeBackLayout
 
 ### BGASwipeBackLayout-Android
-* **compile 'cn.bingoogolapple:bga-swipebacklayout:latestVersion@aar'**
+* **implementation 'cn.bingoogolapple:bga-swipebacklayout:latestVersion@aar'**
 * GitHub：https://github.com/bingoogolapple/BGASwipeBackLayout-Android
 
 ### recyclerview-animators(recyclerview动画)
