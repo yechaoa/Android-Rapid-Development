@@ -1,5 +1,4 @@
-# Android-Rapid-Development
-Android快速开发整理（库、插件、常用网站）
+# Android快速开发整理（库、插件、常用网站）
 
 > **转载请明显标注出处**
 
