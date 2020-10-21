@@ -5,12 +5,9 @@ Android快速开发整理（库、插件、常用网站）
 
 # 一、官方支持库
 
-#### implementation 'com.android.support:appcompat-v7:28.0.0'
-#### implementation 'com.android.support:support-v4:28.0.0'
-#### implementation 'com.android.support:recyclerview-v7:28.0.0'
-#### implementation 'com.android.support:support-v13:28.0.0'
-#### implementation 'com.android.support:design:28.0.0'
-#### implementation 'com.android.support:cardview-v7:28.0.0'
+#### implementation "androidx.core:core-ktx:1.3.2"
+#### implementation "androidx.appcompat:appcompat:1.2.0"
+#### implementation "com.google.android.material:material:1.2.1"
 #### ...
 
 > 建议迁移到androidx
@@ -41,11 +38,11 @@ allprojects {
 * 相关文章：[Gson 解析教程](http://blog.csdn.net/axuanqq/article/details/51441590)
 
 ### Glide
-* **implementation 'com.github.bumptech.glide:glide:4.10.0'**
-* **annotationProcessor 'com.github.bumptech.glide:compiler:4.10.0'**
+* **implementation 'com.github.bumptech.glide:glide:4.11.0'**
+* **annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'**
 * GitHub：https://github.com/bumptech/glide
 * 相关文章：[带你全面了解Glide 4的用法](http://blog.csdn.net/yechaoa/article/details/78886125)
-					
+
 ### Glide Transformations
 * **implementation 'jp.wasabeef:glide-transformations:4.1.0'**
 * Github：https://github.com/wasabeef/glide-transformations
@@ -68,21 +65,25 @@ allprojects {
 * 相关文章：[Butter Knife 配置和使用及插件](http://blog.csdn.net/yechaoa/article/details/52963196)
 
 ### Dagger 2（Google）
-* **implementation 'com.google.dagger:dagger:2.25.2'**
-* **annotationProcessor 'com.google.dagger:dagger-compiler:2.25.2'**
+* **implementation 'com.google.dagger:dagger:2.22.1'**
+* **annotationProcessor 'com.google.dagger:dagger-compiler:2.22.1'**
 * Github：https://github.com/google/dagger
 
 ### EventBus
-* **implementation 'org.greenrobot:eventbus:3.1.1'**
+* **implementation 'org.greenrobot:eventbus:3.2.0'**
 * Github：https://github.com/greenrobot/EventBus
 * 相关文章：[EventBus使用详解(一)——初步使用EventBus](http://blog.csdn.net/harvic880925/article/details/40660137)
 					[EventBus使用详解(二)——EventBus使用进阶](http://blog.csdn.net/harvic880925/article/details/40787203)
-					
-### greenDAO
+
+### greenDAO(数据库)
 * **implementation 'org.greenrobot:greendao:3.2.2'**
 * Github：https://github.com/greenrobot/greenDAO
 * 相关文章：[玩转Android之数据库框架greenDAO3.0使用指南](http://blog.csdn.net/yechaoa/article/details/79363096)
-					
+
+### LitePal(数据库)
+* **implementation 'org.litepal.guolindev:core:3.2.2'**
+* Github：https://github.com/guolindev/LitePal
+			
 ### PermissionsDispatcher（6.0权限）
 * **implementation "com.github.hotchemi:permissionsdispatcher:4.6.0"**
 * **annotationProcessor "com.github.hotchemi:permissionsdispatcher-processor:4.6.0"**
@@ -90,8 +91,12 @@ allprojects {
 * 相关文章：[Android6.0运行时权限。](http://blog.csdn.net/yechaoa/article/details/61920584)
 
 ### RxPermissions（6.0权限）
-* **implementation 'com.github.tbruyelle:rxpermissions:0.10.2'**
+* ** implementation 'com.github.tbruyelle:rxpermissions:0.10.2'**
 * GitHub：https://github.com/tbruyelle/RxPermissions
+
+### PermissionX（6.0权限）
+* ** implementation 'com.permissionx.guolindev:permissionx:1.4.0'**
+* GitHub：https://github.com/guolindev/PermissionX
 
 ### Android Saripaar v2（表单校验）
 * **implementation 'com.mobsandgeeks:android-saripaar:2.0.3'**
@@ -99,11 +104,11 @@ allprojects {
 * 相关文章：[Android之表单验证，Validation三方集成。](http://blog.csdn.net/yechaoa/article/details/60875310)
 
 ### YUtils（Android快速开发工具集合）
-* **implementation 'com.github.yechaoa:YUtils:2.1.0'**
+* **implementation 'com.github.yechaoa:YUtils:3.1.1'**
 * GitHub：https://github.com/yechaoa/YUtils
 
 ### AndroidUtilCode（各种util）
-* **implementation 'com.blankj:utilcode:1.26.0'**
+* **implementation 'com.blankj:utilcode:1.29.0'**
 * GitHub：https://github.com/Blankj/AndroidUtilCode
 
 <br>
@@ -113,7 +118,7 @@ allprojects {
 <br>
 
 ### OkHttp
-* **implementation("com.squareup.okhttp3:okhttp:4.2.2")**
+* **implementation("com.squareup.okhttp3:okhttp:4.9.0")**
 * 官网：http://square.github.io/okhttp/
 * GitHub：https://github.com/square/okhttp
 
@@ -130,20 +135,15 @@ allprojects {
 * **implementation 'org.xutils:xutils:3.8.3'**
 * GitHub：https://github.com/wyouflf/xUtils3
 
-### MVP
-* 官方例子Github：https://github.com/googlesamples/android-architecture/tree/todo-mvp/
-* 相关文章：[浅谈 MVP in Android（鸿洋_）](http://blog.csdn.net/lmj623565791/article/details/46596109)
-                     [MVP快速开发框架](http://www.jianshu.com/p/d98013e0cd03)
-		     
 ### Retrofit
-* **implementation 'com.squareup.retrofit2:retrofit:2.7.0'**
+* **implementation 'com.squareup.retrofit2:retrofit:2.9.0'**
 * 官网：[http://square.github.io/retrofit/](http://square.github.io/retrofit/)
 * GitHub：https://github.com/square/retrofit
 
 ### RX系列：https://github.com/ReactiveX
 
 ### RxJava
-* **implementation "io.reactivex.rxjava2:rxjava:3.0.0-RC6"**
+* **implementation "io.reactivex.rxjava2:rxjava:3.0.7"**
 * Github：https://github.com/ReactiveX/RxJava
 
 ### RxAndroid
@@ -195,23 +195,12 @@ allprojects {
 * **implementation 'com.astuetz:pagerslidingtabstrip:1.0.1'**
 * GitHub：https://github.com/astuetz/PagerSlidingTabStrip
 
-### XRefreshView（支持各种控件刷新）
-* **implementation 'com.huxq17.xrefreshview:xrefreshview:3.6.9'**
-* GitHub：https://github.com/huxq17/XRefreshView
-* 相关文章：[打造android万能上拉下拉刷新框架——XRefreshView (一)](http://blog.csdn.net/footballclub/article/details/46422703)
-					[打造android万能上拉下拉刷新框架——XRefreshView (二)](http://blog.csdn.net/footballclub/article/details/46678521)
-					[打造Android万能上拉下拉刷新框架--XRefreshView（三）](http://blog.csdn.net/footballclub/article/details/46982115)
-					
-### SuperRecyclerView
-* **implementation 'com.supercwn.superrecycleview:superlibrary:1.2.5'**
-* GitHub：https://github.com/supercwn/SuperRecycleView
-
 ### EasyRecyclerView
 * **implementation 'com.jude:easyrecyclerview:4.4.2'**
 * GitHub：https://github.com/Jude95/EasyRecyclerView
 
 ### BaseRecyclerViewAdapterHelper
-* **implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.50'**
+* **implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4'**
 * GitHub：https://github.com/CymChad/BaseRecyclerViewAdapterHelper
 
 ### vlayout（RecyclerView的LayoutManager扩展-阿里）
@@ -238,7 +227,7 @@ allprojects {
 * **implementation 'com.github.LuckSiege.PictureSelector:picture_library:v2.3.9'**
 * GitHub：https://github.com/LuckSiege/PictureSelector
 
-### Matisse（知乎开源图片选择器）
+### Matisse（知乎）
 * **implementation 'com.zhihu.android:matisse:0.5.3-beta3'**
 * GitHub：https://github.com/zhihu/Matisse
 
@@ -288,7 +277,7 @@ allprojects {
 * GitHub：https://github.com/JingYeoh/FragmentRigger
 
 ### GSYVideoPlayer(视频播放器)
-* **implementation 'com.shuyu:GSYVideoPlayer:7.1.2'**
+* **implementation 'com.shuyu:GSYVideoPlayer:7.1.6'**
 * GitHub：https://github.com/CarGuo/GSYVideoPlayer
 
 ### SwipeBackLayout(滑动返回)
@@ -302,6 +291,34 @@ allprojects {
 ### recyclerview-animators(recyclerview动画)
 * **implementation 'jp.wasabeef:recyclerview-animators:3.0.0'**
 * GitHub：https://github.com/wasabeef/recyclerview-animators
+
+### XPopup(各种弹窗)
+* **implementation 'com.lxj:xpopup:2.1.4'**
+* GitHub：https://github.com/li-xiaojun/XPopup
+
+### FlowLayout(流式布局)
+* **implementation 'com.hyman:flowlayout-lib:1.1.2'**
+* GitHub：https://github.com/hongyangAndroid/FlowLayout
+
+### Switcher(切换按钮)
+* **implementation 'com.bitvale:switcher:1.1.0'**
+* GitHub：https://github.com/bitvale/Switcher
+
+### EasyFloat(悬浮窗框架)
+* **implementation 'com.github.princekin-f:EasyFloat:1.3.4'**
+* GitHub：https://github.com/princekin-f/EasyFloat
+
+### GuideView(新手引导库)
+* **implementation 'com.binioter:guideview:1.0.0'**
+* GitHub：https://github.com/binIoter/GuideView
+
+### StatusBarUtil(状态栏工具类)
+* **implementation 'com.jaeger.statusbarutil:library:1.5.1'**
+* GitHub：https://github.com/laobie/StatusBarUtil
+
+### ImmersionBar(状态栏工具类)
+* **implementation 'com.gyf.immersionbar:immersionbar:3.0.0'**
+* GitHub：https://github.com/gyf-dev/ImmersionBar
 
 
 # 三、各种好用的插件
@@ -343,6 +360,12 @@ allprojects {
 
 ### Flutter
 * Flutter开发插件
+
+### Json To Kotlin Class
+* json转kotlin bean对象
+
+### Android Drawable Preview
+* 可对drawable及mipmap下的资源文件预览
 
 
 # 四、各种常用的网站
